@@ -40,22 +40,63 @@ p {
     text-align: center;
     padding: 5 px;
 }
+
 body {
     background-color: rgba(28, 170, 23, 0.603)
 }
-.Evento1{
+
+.Evento1 {
     width: 500px;
-    height: a200; 
+    height: a200;
 }
-.Evento2{
+
+.Evento2 {
     width: 500px;
-    height: a200; 
+    height: a200;
 }
-.Evento3{
+
+.Evento3 {
     width: 500px;
-    height: a200; 
+    height: a200;
 }
-.Evento4{
+
+.Evento4 {
     width: 500px;
-    height: a200; 
+    height: a200;
+}
+
+.contenedor-horizontal p {
+    flex: 1;
+    /* Hace que los párrafos se expandan para ocupar el espacio disponible */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+    padding: 10px;
+    /* Añade un poco de espacio interno */
+    border: 1px solid #ccc;
+    /* Añade un borde para separar visualmente los párrafos */
+}
+
+.contenedor-horizontal {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye el espacio entre los elementos */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+}
+nav li {
+    margin: 0 10px;
 }
